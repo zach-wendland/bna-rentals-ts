@@ -337,7 +337,6 @@ export class ZillowFetcher {
       rateLimitWaitMs = RATE_LIMIT_WAIT_MS,
     } = config
 
-    const allProperties: ZillowProperty[] = []
     const allRecords: any[] = []
 
     for (const location of locations) {
